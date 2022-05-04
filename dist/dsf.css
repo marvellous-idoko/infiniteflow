@@ -1,0 +1,138 @@
+.flex{
+display: flex;
+place-content: center;
+place-items: center;
+}
+ul#liko > li:hover{
+ background-color: rgba(255, 255, 255, 0.24);
+ border-bottom: white 2px solid;
+ transition-property:background-color;
+ transition: .28s ease;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul#liko > li{
+    height: 3.4em;
+    width: 5em;
+    margin: 0 .5em;
+    background-color: transparent;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    cursor: pointer;
+}
+    ul#liko{
+    list-style: none;
+    color: white;
+}
+
+#mainCont{
+    max-width: 50em;
+    margin: auto;
+    text-align: center;
+    color: #ffffffc2;
+}
+
+
+ul.flex>li h3{
+    margin: 0.5em 0;
+color: #aa0ab2;
+}
+    ul.flex>li{
+    margin: 1EM 2em;
+}
+.anim{
+    animation: ol 1s ease forwards;
+}
+@keyframes ol {
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }to{
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+.op{
+    opacity: 0;
+}
+
+li#jui:hover{
+    background-color: initial;
+    border-bottom: initial!important;
+    transition:initial!important;
+}
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    overflow-x: hidden;
+}
+figure#vid{
+    height: stretch;
+    width: stretch;
+    margin: 0 2em;
+    height: 15em;
+    width: -webkit-fill-available;
+    background:linear-gradient(-45deg,#a02ba6,#df08e9);
+    border-radius: 5px;
+}
+li>button:hover{
+    background-color: transparent;
+    border: 2px white solid;
+    color:white;
+    border-radius: 5px;
+ transition: .28s ease;
+ transition-property:background-color,border ;
+
+}
+    li>button{
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bigBtn{
+    height: inherit;
+    border-radius: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 0 1em;
+    width: 10em;
+    border: none;
+}
+#firBtn{
+    color: #b420bc;
+}
+#firBtn:hover{
+    color: white;
+    transition: .28s ease;
+    transition-property: background-color,color,border;
+    background-color: transparent;
+    border: 1px white solid;
+
+
+}
+    #secBtn:hover{
+    background-color: white;
+    color: #b420bc;
+    transition: .28s ease;
+    transition-property: background-color,color;
+}
+    #secBtn{
+    color: white;
+    background: transparent;
+    border: 1px white solid;
+}
